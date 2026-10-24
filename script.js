@@ -30,7 +30,7 @@ async function processVideo() {
     try {
         // මෙතනට ඔබ Render.com වල deploy කරන Backend එකේ Live URL එක දමන්න
         // උදාහරණයක් ලෙස: https://my-fb-backend.onrender.com/api/get-video-info
-        const API_URL = 'https://curly-broccoli-976prwwwqw9cxqx5-5000.app.github.dev/api/get-video-info';
+        const API_URL = 'https://ytdl-omega-swart.vercel.app/';
 
         const response = await fetch(API_URL, {
             method: 'POST',
