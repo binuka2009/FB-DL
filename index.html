@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB Video Downloader Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- TOP AD -->
+    <div class="ad-container">
+        <span>[ TOP BANNER AD (728x90) ]</span>
+    </div>
+
+    <div class="main-card">
+        <div class="header">
+            <div class="logo-icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <h1>Facebook Video Downloader</h1>
+            <p class="subtitle">Download 1080p, 720p, 480p, 360p, 240p Videos & MP3 Audio</p>
+        </div>
+
+        <div class="input-wrapper">
+            <i class="fa-solid fa-link input-icon"></i>
+            <input type="text" id="fbUrl" placeholder="Facebook video link එක මෙතනට paste කරන්න...">
+            <button id="downloadBtn">
+                <i class="fa-solid fa-download"></i> <span>Download</span>
+            </button>
+        </div>
+
+        <div id="alertBox" class="alert alert-error"></div>
+
+        <div id="loadingBox" class="loading-box">
+            <div class="spinner"></div>
+            <p>වීඩියෝ දත්ත පරීක්ෂා කරමින් පවතී... කරුණාකර රැඳී සිටින්න.</p>
+        </div>
+
+        <div class="ad-container">
+            <span>[ IN-CONTENT BANNER AD ]</span>
+        </div>
+
+        <div id="previewCard" class="preview-card">
+            <div class="thumb-container">
+                <img id="thumbImg" class="preview-thumb" src="" alt="Video Preview" referrerpolicy="no-referrer">
+            </div>
+            
+            <div class="preview-details">
+                <h3 id="videoTitle" class="video-title"></h3>
+
+                <div class="ad-container small-ad">
+                    <span>[ NATIVE DOWNLOAD AD ]</span>
+                </div>
+
+                <div id="qualityButtons" class="quality-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ad-container">
+        <span>[ BOTTOM FOOTER AD ]</span>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
